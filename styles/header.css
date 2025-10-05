@@ -1,0 +1,81 @@
+header {
+ width: 100%;
+ padding: 28px 8%;
+ position: relative;
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    position: relative;
+}
+
+#mobile_btn {
+    display: none;
+    position: relative;
+    z-index: 1100; /* maior que o nav */
+    background-color: transparent;
+    font-size: 1.5rem;
+    border: none;
+}
+
+
+#mzr_logo {
+    width: 200px;
+    height: auto;
+    margin-right: auto;
+}
+
+#nav_list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    position: absolute;
+   
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.nav-item.active {
+    color: rgb(233, 175, 47);
+    border-bottom: 3px solid rgb(202, 151, 42);
+
+}
+
+#mobile_menu_hamburguer {
+    display: none;
+    position: absolute;
+    top: 100%; /* logo abaixo do navbar */
+    right: 8%;  /* alinhado com o padding do header */
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 1050;
+}
+
+@media screen and (max-width: 1170px){
+    #nav_list, 
+    #navbar .btn-default {
+        display: none;
+    }
+    #mobile_btn {
+        display: block;
+        background-color: transparent;
+        font-size: 1.5rem;
+        border: none;
+    }
+
+    #mobile_menu_hamburguer.active {
+        display: flex;
+    }
+}
