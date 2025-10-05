@@ -25,7 +25,7 @@ body {
   transition: background-color .2s ease;
 }
 
-.btn-defalt:hover {
+.btn-defalt:hover { /*Muda a cor do botão com o ponteiro*/
   background-color: rgb(248, 188, 61);
 }
 
