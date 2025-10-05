@@ -55,7 +55,7 @@ header {
     background-color: #e9af2f; /* cor parecida com sua imagem */
     gap: 40px;
     z-index: 1050;
-    transition: left 0.3s ease; /* animação suave */
+    transition: left 0.6s ease; /* animação suave */
 }
 
 @media screen and (max-width: 1170px){
