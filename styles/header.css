@@ -51,7 +51,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: fixed;  /* Fica fixo na tela inteira */
+    position: fixed;  /* Fica na tela inteira */
     top: 0;
     left: 100%;       
     width: 100%;
@@ -59,7 +59,7 @@ header {
     background-color: rgb(233, 175, 47); 
     gap: 40px;
     z-index: 1050;
-    transition: left 0.4s ease; /* animação suave */
+    transition: left 0.4s ease; /* animação  */
 }
 
 @media screen and (max-width: 1100px){
@@ -109,3 +109,6 @@ header {
 #mobile_menu_hamburguer .close-btn {
     color: black; 
 }
+
+
+/*SEPARAR POR PARTES EX: BOTÃO TAL -- MENU -- BOTÃO MENU*/
