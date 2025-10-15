@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function() { 
     $('#mobile_btn').click(function() {
         $('#mobile_menu_hamburguer').addClass('active');
     });

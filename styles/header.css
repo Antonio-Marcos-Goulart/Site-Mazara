@@ -15,7 +15,7 @@ header {
 }
 
 #mzr_logo {
-    width: 200px;
+    width: 190px;
     height: auto;
     margin-right: auto;
 }
@@ -30,7 +30,7 @@ header {
 
 .nav-item a {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: 600;
 }
 
@@ -62,7 +62,7 @@ header {
     transition: left 0.4s ease; /* animação  */
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1100px){ /* Estilos para telas menores que 1100px */
     #nav_list, 
     #navbar .btn-default {
         display: none;
@@ -97,10 +97,10 @@ header {
 
 /* Botão de fechar o menu em telas pequenas  */
 #mobile_menu_hamburguer .close-btn {
-    position: absolute;
+    position: absolute; /* Posiciona o botão no canto superior direito */
     top: 25px;
     right: 25px;
-    font-size: 3rem; /*Tamanho do botão X*/
+    font-size: 3rem; /*Tamanho do botão X*/ 
     background: transparent;
     border: none;
     cursor: pointer;
@@ -109,6 +109,3 @@ header {
 #mobile_menu_hamburguer .close-btn {
     color: black; 
 }
-
-
-/*SEPARAR POR PARTES EX: BOTÃO TAL -- MENU -- BOTÃO MENU*/
