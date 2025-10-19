@@ -6,7 +6,11 @@
     <link rel="shortcut icon" href="img/logo/mazara_logo-removebg-preview.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer">
+    </script>
+
     <title>Mazara Equipamentos</title>
 
     <link rel="stylesheet" href="styles/style.css">
@@ -14,6 +18,8 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/brunoGarcia.css">
+    <link rel="stylesheet" href="styles/enviaBrasil.css">
 
 </head>
 <body>
@@ -22,7 +28,7 @@
             <img id = "mzr_logo" src="img/logo/Mazara_Equipamentos_Horizontal.png" alt="Logo Mazara ">
 
             <ul id = "nav_list"> <!--Menu-->
-                <li class = "nav-item active"><a href= "#inicio">Início</a></li>
+                <li class = "nav-item active"><a href= "index.html">Início</a></li>
                 <li class = "nav-item"><a href = "produtos.html">Produtos</a></li>
                 <li class = "nav-item"><a href = "#servicos">Serviços</a></li>
                 <li class = "nav-item"><a href = "#contato">Contato</a></li>
@@ -40,7 +46,7 @@
 
         <div id = "mobile_menu_hamburguer">
                 <ul id = "mobile_nav_list">
-                    <li class = "nav-item"><a href= "#inicio">Início</a></li>
+                    <li class = "nav-item"><a href= "index.html">Início</a></li>
                     <li class = "nav-item"><a href = "produtos.html">Produtos</a></li>
                     <li class = "nav-item"><a href = "#servicos">Serviços</a></li>
                     <li class = "nav-item"><a href = "#contato">Contato</a></li>
@@ -55,13 +61,15 @@
     </header>
 
  
-    <main id = "content"> 
+    <main id = "content">
+        <!-- BANNER MAZARA-->
         <section id = "home" class = "home-section">
          <div id = "banner_img" class = "banner_img">
             <img src="img/banner/Banner_Inovacao_Pessoa.png" alt="Banner Inovação Mazara">
          </div>     
         </section>
 
+        <!-- SEÇÃO ENVIO PARA TODO O BRASIL-->
         <section id = "enviaBrasil" class = "section-enviaBrasil">
             <div class = "enviaBrasil-content">
                 <div class = "enviaBrasil-text">
@@ -75,8 +83,46 @@
             </div>
         </section>
 
+        <!-- SEÇÃO BRUNO GARCIA -->
+        <section id="brunoGarcia" class="section-brunoGarcia">
+            <div class="brunoGarcia-content">
+                <div class="brunoGarcia-img">
+                    <img src="img/clientes/brunoGarcia.png" alt="Bruno Garcia Parceiro Mazara">
+                </div>
+                <div class="brunoGarcia-text">
+                    <h2>Bruno Garcia</h2>
+                    <p>Nós apoiamos o trabalho do Bruno Garcia e tivemos o prazer de presenteá-lo com as caixas de cozinha da Mazara, reforçando nossa parceria e confiança no seu trabalho.</p>
+                    <p>Confira mais sobre ele em seu canal:</p>
+                    <iframe width="560" height="315" 
+                        src="https://www.youtube.com/embed/ul3HRreknKw?start=120&end=177" 
+                        frameborder="0" 
+                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
 
-        
+        <!-- SEÇÃO CARROSSEL CLIENTES -->
+        <section id="clientes" class="section-clientes">
+            <h2 class="section-title">Nossos Clientes</h2>
+            <div class="clientes-carousel">
+                <div class="cliente-item">
+                    <img src="img/clientes/cliente1.png" alt="Cliente 1">
+                </div>
+                <div class="cliente-item">
+                    <img src="img/clientes/cliente2.png" alt="Cliente 2">
+                </div>
+                <div class="cliente-item">
+                    <img src="img/clientes/cliente3.png" alt="Cliente 3">
+                </div>
+                <div class="cliente-item">
+                    <img src="img/clientes/cliente4.png" alt="Cliente 4">
+                </div>
+                <div class="cliente-item">
+                    <img src="img/clientes/cliente5.png" alt="Cliente 5">
+                </div>
+            </div>
     </main>
 
     
@@ -84,6 +130,7 @@
         <div class = "footer-content">
             <h3>Mazara Equipamentos</h3>
             <p>Especialistas em fabricação de caixas de cozinha para caminhão.</p>
+            <p>Produto patenteado</p>
             <ul id = "socials" class = "socials">
                 <li><a href ="https://www.instagram.com/mazaraequipamentos/"><i class = "fa-brands fa-instagram"></i></a></li>
                 <li><a href ="https://www.linkedin.com/company/mazara/posts/?feedView=all"><i class = "fa-brands fa-linkedin-in"></i></a></li>
@@ -101,5 +148,4 @@
 </body>
 
 <script src="javascript/script.js"></script>
-
 </html>
