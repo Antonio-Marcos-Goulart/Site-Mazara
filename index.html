@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/home.css">
 
 </head>
 <body>
@@ -22,10 +23,10 @@
 
             <ul id = "nav_list"> <!--Menu-->
                 <li class = "nav-item active"><a href= "#inicio">Início</a></li>
-                <li class = "nav-item"><a href = "#produtos">Produtos</a></li>
+                <li class = "nav-item"><a href = "produtos.html">Produtos</a></li>
                 <li class = "nav-item"><a href = "#servicos">Serviços</a></li>
                 <li class = "nav-item"><a href = "#contato">Contato</a></li>
-                <li class = "nav-item"> <a href = "#nos">Sobre Nós</a></li>
+                <li class = "nav-item"> <a href = "sobre-nos.html">Sobre Nós</a></li>
             </ul>  
             
             <button class = btn-default> <!--Botão do orçamento-->
@@ -40,10 +41,10 @@
         <div id = "mobile_menu_hamburguer">
                 <ul id = "mobile_nav_list">
                     <li class = "nav-item"><a href= "#inicio">Início</a></li>
-                    <li class = "nav-item"><a href = "#produtos">Produtos</a></li>
+                    <li class = "nav-item"><a href = "produtos.html">Produtos</a></li>
                     <li class = "nav-item"><a href = "#servicos">Serviços</a></li>
                     <li class = "nav-item"><a href = "#contato">Contato</a></li>
-                    <li class = "nav-item"> <a href = "#sobre-nos">Sobre Nós</a></li>
+                    <li class = "nav-item"> <a href = "sobre-nos.html">Sobre Nós</a></li>
                 </ul>
             <button class="close-btn">&times;</button>
 
@@ -53,15 +54,32 @@
         </div>
     </header>
 
+ 
     <main id = "content"> 
         <section id = "home" class = "home-section">
          <div id = "banner_img" class = "banner_img">
-            <img src="img/banner/Banner_Inovacao_Pessoa.png" alt="Caminhão com cozinha Mazara">
+            <img src="img/banner/Banner_Inovacao_Pessoa.png" alt="Banner Inovação Mazara">
          </div>     
         </section>
-         
+
+        <section id = "enviaBrasil" class = "section-enviaBrasil">
+            <div class = "enviaBrasil-content">
+                <div class = "enviaBrasil-text">
+                    <h2>Enviamos para todo o Brasil!</h2>
+                    <p>Entre em contato conosco e solicite um orçamento personalizado para sua região.</p>
+                    <button class = "btn-default">Solicitar Orçamento</button>
+                </div>
+                <div class = "enviaBrasil-img">
+                    <img src = "img/gerais/mapaBrasilMazara.svg" alt = "Mapa do Brasil Mazara">
+                 </div>
+            </div>
+        </section>
+
+
+        
     </main>
 
+    
     <footer>
         <div class = "footer-content">
             <h3>Mazara Equipamentos</h3>
@@ -81,5 +99,7 @@
     </footer>
     
 </body>
+
 <script src="javascript/script.js"></script>
+
 </html>
