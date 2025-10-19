@@ -1,0 +1,66 @@
+#home {
+    display: flex;
+    align-items: center;
+}
+
+.banner_img {
+  width: 100%; 
+  height: auto; /* Altura automática para manter a proporção */
+  background-image: url('img/banner/Banner_Inovacao_Pessoa.png');
+  background-size: cover; /* cobre toda a tela */
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: 0px solid transparent;
+}
+
+.banner_img img {
+  width: 100%;
+  height: auto; /* Proporção da imagem em dispositivos, não havendo distorção */
+  display: block; /* remove espaço embaixo da imagem */
+  margin:  auto; /* centraliza a imagem */
+}
+
+/* SEÇÃO ENVIAMOS PARA TODO O BRASIL */
+
+.section-enviaBrasil {
+  padding: 20px 8%;
+  background-color: #dad292; /* ou qualquer cor que quiser */
+}
+
+.enviaBrasil-content {
+  display: flex;
+  align-items: center; /* centraliza verticalmente */
+  justify-content: space-between; /* espaça o texto e a imagem */
+  gap: 40px; /* espaço entre texto e imagem */
+  flex-wrap: wrap; /* garante que fique responsivo em telas pequenas */
+}
+
+.enviaBrasil-text {
+  flex: 1; /* ocupa espaço disponível */
+  min-width: 100px; /* evita que fique muito pequeno em telas menores */
+}
+
+.enviaBrasil-text h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.enviaBrasil-text p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.enviaBrasil-img {
+  flex: 1; /* ocupa espaço disponível */
+  display: flex;
+  justify-content: flex-end; /* mantém a imagem à direita */
+  min-width: 250px;
+}
+
+.enviaBrasil-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
