@@ -1,12 +1,12 @@
 header {
     width: 100%;
-    position: relative;
+    position: fixed;
+    top: 0;
     width: 100%;
     padding: 8px 8%; /* Espaçamento interno do header */
     box-sizing: border-box; /* Inclui padding na largura total */
-    position: relative;
-    background-color: #fff;
-    z-index: 10; /* Garante que o header fique acima de outros elementos */
+    background-color: #ffffff;
+    z-index: 1000; /* Garante que o header fique acima de outros elementos */
 }
 
 #navbar {
@@ -82,6 +82,7 @@ header {
     #mobile_menu_hamburguer.active {
         left: 0;
     }
+    
    /* Links centralizados */
     #mobile_nav_list {
         list-style: none;

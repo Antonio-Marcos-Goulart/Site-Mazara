@@ -1,0 +1,25 @@
+.sobreNos-section {
+  background-color: #f8f8f8;       /* fundo leve */
+  padding: 60px 20px;              /* espaçamento interno */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sobreNos-section div {
+  max-width: 800px;                /* limite da largura */
+  background-color: #fff;          /* fundo branco */
+  padding: 40px;
+  border-radius: 15px;             /* cantos arredondados */
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.311);
+}
+
+.sobreNos-section h2 {
+  font-size: 1.1rem;
+  line-height: 1.7;                /* espaçamento entre linhas */
+  color: #333;
+  font-weight: 400;
+  white-space: pre-line;           /* mantém as quebras de linha do HTML */
+}
+

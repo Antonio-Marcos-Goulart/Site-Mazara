@@ -1,0 +1,64 @@
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Ajusta o número de colunas conforme o tamanho da tela */
+  gap: 40px;
+  padding: 40px 8%;
+  text-align: center;
+}
+
+.product-item {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.311);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+.product-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #000000;
+}
+
+.product-item {
+    text-align: center;
+    position: relative;
+}
+
+.product-frame {
+    position: relative;
+    display: inline-block;
+    width: 250px; /* ajuste o tamanho */
+    height: 250px;
+}
+
+.bg-quadrado {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.product-image { 
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    width: 80%; /* controla o tamanho da caixa dentro do quadrado */
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+}
+
