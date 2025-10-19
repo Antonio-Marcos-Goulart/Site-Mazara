@@ -36,13 +36,13 @@ header {
 .nav-item a {
     text-decoration: none;
     color: rgb(0, 0, 0);
+    padding: 5px;
     font-weight: 600;
 }
 
 .nav-item.active {
     color: rgb(233, 175, 47);
     border-bottom: 3px solid rgb(202, 151, 42);
-
 }
 
 #mobile_btn {
