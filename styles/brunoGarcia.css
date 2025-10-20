@@ -17,15 +17,18 @@
 }
 
 .brunoGarcia-img {
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+
 }
 
 .brunoGarcia-img img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.523);
 }
 
