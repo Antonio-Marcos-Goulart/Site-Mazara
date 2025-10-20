@@ -1,9 +1,11 @@
 .products-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Ajusta o número de colunas conforme o tamanho da tela */
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Ajusta o número de colunas conforme o tamanho da tela */
   gap: 40px;
   padding: 40px 8%;
   text-align: center;
+  box-sizing: border-box;
+  justify-content: center;
 }
 
 .product-item {
