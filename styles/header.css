@@ -67,7 +67,7 @@ header {
     transition: left 0.4s ease; /* animação  */
 }
 
-@media screen and (max-width: 1100px){ /* Estilos para telas menores que 1100px */
+@media screen and (max-width: 1200px){ /* Estilos para telas menores que 1100px */
     #nav_list, 
     #navbar .btn-default {
         display: none;
